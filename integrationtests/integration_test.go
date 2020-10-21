@@ -12,7 +12,7 @@ import (
 	"net"
 	"time"
 
-	quicconn "github.com/marten-seemann/quic-conn"
+	quicconn "github.com/zhangjs/quic-conn"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 )
