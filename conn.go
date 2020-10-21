@@ -60,7 +60,7 @@ func (c *conn) RemoteAddr() net.Addr {
 }
 
 func (c *conn) Close() error {
-	return c.session.Close()
+	return c.session.CloseWithError(0, "")
 }
 
 func (c *conn) SetDeadline(t time.Time) error {
